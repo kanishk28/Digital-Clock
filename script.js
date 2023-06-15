@@ -22,7 +22,7 @@ function myClock() {
         second = "0" + second
     }
     
-    document.getElementById("land").innerHTML = hour + ":" + minute + ":" + second + " " + amorPm;
+    document.getElementById("para").innerHTML = hour + ":" + minute + ":" + second + " " + amorPm;
 
 }
 setInterval(myClock, 1000);
